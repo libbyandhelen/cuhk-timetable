@@ -1,0 +1,3 @@
+[console_scripts]
+crawl-course = spider.run:crawl
+

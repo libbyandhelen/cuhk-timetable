@@ -1,0 +1,50 @@
+.background{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+.alert-dialog{
+    position: fixed;
+    top: calc(50% - 65px);
+    left: calc(50% - 210px);
+    height: 130px;
+    width: 420px;
+    background-color: #F2DEDE;
+    z-index: 11;
+    box-shadow: 1px 14px 20px 7px rgba(0,0,0,0.4);
+    padding: 8px;
+    padding-top: 50px;
+}
+.error-msg{
+    text-align: center;
+    color: #A74544;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.error-btn{
+    padding: 5px;
+    text-align: center;
+    width: 66px;
+    margin-left: 330px;
+}
+.error-btn:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.warn-hide{
+    display: none;
+}
+.warn-show{
+    display: block;
+}
+#warning{
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+}
+.fadeOut{
+    z-index: 1000000 !important;
+}

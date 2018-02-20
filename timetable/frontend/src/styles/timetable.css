@@ -1,0 +1,44 @@
+.table-header{
+    font-size: 13px;
+}
+.time{
+    font-size: 13px;
+}
+.block-content{
+    margin-bottom: 0;
+}
+.sub{
+    font-size: 13px;
+}
+.block{
+    cursor: pointer;
+    border: 4px solid #f9f8f8;
+}
+.block:hover{
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    opacity: 0.8;
+}
+.table td, .table th{
+    border-top: none;
+}
+.open{
+    color: #72bd32;
+}
+.waiting{
+    color: #fdca45;
+}
+.closed{
+    color: #97c0ea;
+}
+.timetable thead th{
+    border: none;
+}
+.timetable tr:nth-child(even){
+    background-color: #f1f1f1;
+}
+.timetable tr:nth-child(odd){
+    background-color: #f9f8f8;
+}
+.timetable thead th{
+    background-color: #f1f1f1;
+}

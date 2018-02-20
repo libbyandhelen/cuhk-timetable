@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CU Timetable</title>
+    {% include 'headers.html' %}
+</head>
+<body>
+    <div id="signup-page" static-url="{% static 'dist/js/' %}"></div>
+
+    <script src={% static 'dist/js/request.js' %}></script>
+    <script src={% static 'dist/js/ripple_effect.js' %}></script>
+    <script src={% static 'dist/js/signup_page.js' %}></script>
+</body>
+</html>

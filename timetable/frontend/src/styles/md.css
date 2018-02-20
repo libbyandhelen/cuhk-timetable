@@ -1,0 +1,100 @@
+/*https://codepen.io/sevilayha/pen/IdGKH*/
+.md-group 			  {
+    position:relative;
+    margin-bottom:45px;
+}
+.md-input 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:100%;
+    border:none;
+    border-bottom:1px solid black;
+    font-family: 'Indie Flower', cursive;
+    background: none;
+}
+.md-input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+.md-label 				 {
+    color:#C79A00;
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* active state */
+.md-input:focus ~ .md-label, .md-input:valid ~ .md-label 		{
+    top:-20px;
+    font-size:20px;
+    color:#5C007A;
+}
+
+/* BOTTOM BARS ================================= */
+.md-bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.md-bar:before, .md-bar:after 	{
+    content:'';
+    height:2px;
+    width:0;
+    bottom:1px;
+    position:absolute;
+    background:#5C007A;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+}
+.md-bar:before {
+    left:50%;
+}
+.md-bar:after {
+    right:50%;
+}
+
+/* active state */
+.md-input:focus ~ .md-bar:before, .md-input:focus ~ .md-bar:after {
+    width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.md-highlight {
+    position:absolute;
+    height:60%;
+    width:100px;
+    top:25%;
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+}
+
+/* active state */
+.md-input:focus ~ .md-highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from { background:#C79A00; }
+    to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#C79A00; }
+    to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#C79A00; }
+    to 	{ width:0; background:transparent; }
+}

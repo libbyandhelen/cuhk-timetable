@@ -1,0 +1,102 @@
+.rect-container{
+    -webkit-box-flex: 0;
+    flex: 0 0 2.3333%;
+    margin-left: 5%;
+}
+.image-container{
+    -webkit-box-flex: 0;
+    flex: 0 0 57.7%;
+    overflow: hidden;
+}
+.panel-container{
+    -webkit-box-flex: 0;
+    flex: 0 0 29%;
+}
+#decoration-rect1{
+    width: 100%;
+    height: 100%;
+}
+#decoration-rect2{
+    width: 100%;
+    height: 100%;
+}
+#decoration-rect3{
+    width: 100%;
+    height: 100%;
+}
+#decoration-rect4{
+    width: 100%;
+    height: 100%;
+}
+#decoration-rect5{
+    width: 100%;
+    height: 100%;
+}
+#image{
+    height: 100%;
+    background-color: white;
+}
+#panel{
+    width: 100%;
+    height: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+#sign-in-button{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    right: 3.2%;
+    bottom: 140px;
+    border-radius: 54px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    /* vertical-align: middle; */
+    font-size: 10px;
+    line-height: 4.5;
+}
+#sign-up-button{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    right: 3.2%;
+    bottom: 210px;
+    border-radius: 54px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font-size: 10px;
+    line-height: 4.5;
+}
+.signup-main{
+    position: absolute;
+    top:58px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.row1{
+    height: 7.4%;
+}
+.row2{
+    height: 4%;
+}
+.row3{
+    height: 77.2%
+}
+.row4{
+    height: 11.4%;
+}
+.submit-button{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 19%;
+}
+.wrong-input{
+    border-bottom: 2px solid red !important;
+}
+.warning-msg{
+    color: red;
+}

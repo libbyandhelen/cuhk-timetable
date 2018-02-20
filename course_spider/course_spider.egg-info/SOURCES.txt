@@ -1,0 +1,16 @@
+setup.py
+course_spider.egg-info/PKG-INFO
+course_spider.egg-info/SOURCES.txt
+course_spider.egg-info/dependency_links.txt
+course_spider.egg-info/entry_points.txt
+course_spider.egg-info/requires.txt
+course_spider.egg-info/top_level.txt
+spider/__init__.py
+spider/run.py
+spider/course/__init__.py
+spider/course/items.py
+spider/course/middlewares.py
+spider/course/pipelines.py
+spider/course/settings.py
+spider/course/spiders/__init__.py
+spider/course/spiders/course_spider.py

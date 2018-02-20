@@ -1,0 +1,125 @@
+.class-code{
+    color: #8E24AA;
+    margin-bottom: 0;
+}
+.class-code:hover{
+    color: #5C007A;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.class-name{
+    margin-bottom: 0;
+    font-size: 12px;
+    /*color: #C79A00;*/
+}
+.accordion-header{
+    background-color: #ffffff;
+    margin-top: 0.5rem;
+    padding: 0.4rem 1rem;
+    border-bottom: 0;
+    /*box-shadow: -3px 2px 4px rgba(0,0,0,0.3);*/
+    z-index: 1;
+}
+.accordion-body{
+    padding: 0 0;
+}
+.info-button{
+    width: 30px !important;
+    height: 30px !important;
+    margin: 10% !important;
+    font-size: 25px;
+    line-height: 1.4;
+    cursor: pointer;
+    /*color: #C79A00 !important;*/
+}
+.code-title{
+    -webkit-box-flex: 0;
+    flex: 0 0 80%;
+    max-width: 80%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 13%;
+}
+.category{
+    -webkit-box-flex: 0;
+    flex: 0 0 80%;
+    max-width: 80%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    line-height:3;
+    font-size: 13px;
+}
+.category-list{
+    position: relative;
+    display: block;
+    padding: 0.1rem 1rem;
+    background-color: white;
+}
+.category-list:hover{
+    background-color: #f9f8f8;
+}
+.icon-col{
+    -webkit-box-flex: 0;
+    flex: 0 0 10%;
+    max-width: 10%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 5%;
+}
+.my-card{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /*background-color: #fff;*/
+    background-clip: border-box;
+    box-shadow: -3px 2px 4px rgba(0,0,0,0.3);
+    /*border-bottom: 1px solid #C79A00;*/
+}
+.term-list{
+    width: 44%;
+    left: 35%;
+    top: 20%;
+    position: absolute;
+    z-index: 2;
+    font-size: 12px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.not-shown{
+    display: none;
+}
+.shown{
+    display: block;
+}
+.term-item{
+    position: relative;
+    display: block;
+    padding: .25rem .15rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.1);
+    color: #5C007A;
+    cursor: pointer;
+}
+.term-item:hover{
+    background-color: #EEEEEE;
+}
+.search-info-btn{
+    color: #C79A00 !important;
+}
+.search-info-btn:hover{
+    color: #C79A00 !important;
+}
+.section-list-group{
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
