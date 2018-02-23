@@ -1,4 +1,6 @@
 .idea
+timetable/.idea
+timetable/mysql.local.conf
 timetable/__pycache__/
 timetable/frontend/node_modules/
 # Byte-compiled / optimized / DLL files
