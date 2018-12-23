@@ -121,7 +121,7 @@ python3 manage.py crontab add
 ```
 python3.6 manage.py rebuild_index
 ```
-9. run scrapy job manually (optional)
+10. run scrapy job manually (optional)
 alphanums ranging from 0 to 25 for each alphabet respectively
 ```
 cd course_spider/spider
